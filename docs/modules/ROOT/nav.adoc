@@ -1,0 +1,8 @@
+* xref:ROOT:index.adoc[Home page]
+* xref:ROOT:sonarqube-plugins.adoc[]
+
+include::installation:partial$nav.adoc[]
+
+include::rules:partial$nav.adoc[]
+
+include::contribution:partial$nav.adoc[]

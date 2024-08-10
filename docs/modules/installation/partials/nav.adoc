@@ -1,0 +1,4 @@
+* Installing ecoCode
+** xref:installation:trying-out.adoc[]
+** xref:installation:download.adoc[]
+** xref:installation:compatibility-matrix.adoc[]

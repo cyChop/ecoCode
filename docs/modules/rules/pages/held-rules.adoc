@@ -1,0 +1,54 @@
+= Held or removed rules
+
+The implementation of the following rules has been held, deprecated or removed due to various issues, detailed in further details below.
+
+[[rules.to-rework]]
+== Rules to be reworked / measured / clarified
+
+This table lists rules proposed by the community, but they have to be reworked / measured / clarified before being implemented in ecoCode plugins.
+(Issues and PR are closed, but they can be reopened once rework is launched.)
+
+[options="header",cols="1h,1,2,4,2"]
+|===
+|Rule key |Language |Name                                             |Description                                                                           |Invalidation
+|CRJVM204 |Java     |Detect unoptimized file formats                  |We have to clarify and rework this rule for Java before accepting the implementation  |link:https://github.com/green-code-initiative/ecoCode/issues/105[Github discussion - issue] +
+link:https://github.com/green-code-initiative/ecoCode/pull/153[Github discussion - PR]
+|EC22     |Java     |The use of methods for basic operations          |We have to measure this rule for Java before accepting the implementation             |link:https://github.com/green-code-initiative/ecoCode/issues/131[Github discussion - issue] +
+link:https://github.com/green-code-initiative/ecoCode/pull/148[Github discussion - PR]
+|EC22     |PHP      |The use of methods for basic operations          |We have to measure this rule for PHP before accepting the implementation              |link:https://github.com/green-code-initiative/ecoCode-php/issues/23[Github discussion - issue]
+|EC53     |Java     |Using arrays in foreach loops                    |No good arguments and not enough green measures.                                      |link:https://github.com/green-code-initiative/ecoCode/issues/240[Github discussion with sources]
+|GRSP0007 |PHP      |Prefer using foreach                             |We have to clarify and measure this rule for PHP before accepting the implementation  |link:https://github.com/green-code-initiative/ecoCode/pull/5[Github discussion - PR]
+|GRSP0008 |PHP      |Avoid using relative path                        |We have to clarify and measure this rule for PHP before accepting the implementation  |link:https://github.com/green-code-initiative/ecoCode/pull/6[Github discussion - PR]
+|         |Java     |Avoid returning a JPA Entity in a RestController |We have to clarify and measure this rule for Java before accepting the implementation |link:https://github.com/green-code-initiative/ecoCode-challenge/issues/58[Github discussion - issue] +
+link:https://github.com/green-code-initiative/ecoCode/pull/138[Github discussion - PR]
+|===
+
+[[rules.deprecated]]
+== Deprecated rules
+
+This table lists rules proposed by the community but deprecated in ecoCode plugins with the justification.
+These rules will be completely deleted in next releases and moved to bottom deleted rules array.
+
+[options="header",cols="1h,1,2,4,2"]
+|===
+|Rule key |Language            |Name                                                  |Description                                                                                              |Invalidation
+|EC34     |Java / Python / PHP |Using try...catch...finally calls                     |Implementation is too simple (only detection of presence of "try" statement) AND replaced by `EC35` rule |Github discussion with measures: link:https://github.com/green-code-initiative/ecoCode/pull/128[general/Java] / link:https://github.com/green-code-initiative/ecoCode-python/pull/6[Python] / link:https://github.com/green-code-initiative/ecoCode-php/pull/10[PHP]
+|EC69     |Python              |Calling a loop invariant function in a loop condition |Finally, not applicable for Python                                                                       |link:https://github.com/green-code-initiative/ecoCode-python/issues/21[Github discussion with sources]
+|===
+
+[[rules.refused-deleted]]
+== Refused / deleted rules
+
+This table lists rules proposed by the community but refused or/and deleted in ecoCode plugins with the justification.
+
+[options="header",cols="1h,1,2,4,2"]
+|===
+|Rule key |Language   |Name                                               |Description                                                                                                                  |Invalidation
+|CRDOM203 |HTML       |HTML page must contain a doctype tag               |The difference in performance is negligible, this rule is more related to the user experience.                               |link:https://github.com/green-code-initiative/ecoCode/issues/103[Github discussion with sources]
+|CRPYT    |Python     |Use numpy array instead of standard list           |The use of numpy library to perform array manipulation is more energy efficient than the use of the standard list functions. |link:https://github.com/green-code-initiative/ecoCode/issues/132[Github discussion with measures]
+|EC4      |Java       |Avoid using global variables                       |Global variables do not exist in Java.                                                                                       |link:https://github.com/green-code-initiative/ecoCode/issues/233[Github discussion with sources]
+|EC8      |JavaScript |Avoid using high accuracy geolocation              |The rule has been merged with the rule EC523                                                                                 |link:https://github.com/green-code-initiative/ecoCode/issues/318[Github discussion with sources]
+|EC63     |Java       |Unnecessarily assigning values to variables        |There are already 3 native SonarQube rules for Java.                                                                         |link:https://github.com/green-code-initiative/ecoCode/pull/258[Github discussion with sources]
+|EC66     |Python     |Use single quote (') instead of quotation mark (") |Finally, not applicable for Python                                                                                           |link:https://github.com/green-code-initiative/ecoCode-python/issues/4[Github discussion with sources]
+|EC75     |Java       |Don't concatenate strings in loops                 |Optimizations on Java concatenation Strings are useless since JDK8                                                           |link:https://github.com/green-code-initiative/ecoCode/issues/246[Github discussion with sources]
+|===

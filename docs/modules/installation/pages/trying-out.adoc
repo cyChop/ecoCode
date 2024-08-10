@@ -1,0 +1,11 @@
+= 🔎 Trying ecoCode out
+
+You can check out the ecoCode plugins with Docker.
+Please have a look at "_Getting started_" section of each plugin:
+
+// FIXME move these to documentation
+* link:https://github.com/green-code-initiative/ecoCode-java?tab=readme-ov-file#-getting-started[Java plugin]
+* link:https://github.com/green-code-initiative/ecoCode-php?tab=readme-ov-file#-getting-started[PHP plugin]
+* link:https://github.com/green-code-initiative/ecoCode-python?tab=readme-ov-file#-getting-started[Python plugin]
+* link:https://github.com/green-code-initiative/ecoCode-csharp?tab=readme-ov-file#-getting-started[C# plugin]
+

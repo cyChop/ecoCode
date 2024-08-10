@@ -1,0 +1,42 @@
+= 🫶 Contributors and sponsors
+
+== 🤓 Core Team
+
+Any question? We are here for you!
+First, create an issue, please.
+Then, if no answer, contact...
+
+* link:https://www.linkedin.com/in/jules-delecour-498680118/[Jules Delecour]
+* link:https://github.com/glalloue[Geoffrey Lalloué]
+* link:https://www.linkedin.com/in/julien-hertout-b1175449/[Julien Hertout]
+* link:https://www.linkedin.com/in/justin-berque-444412140[Justin Berque]
+* link:https://olegoaer.perso.univ-pau.fr[Olivier Le Goaër]
+* link:https://www.linkedin.com/in/maxime-dubois-%F0%9F%8C%B1-649a3a3/[Maxime Dubois]
+* link:https://www.linkedin.com/in/david%E2%80%8E-de-carvalho-8b395284/[David De Carvahlo]
+* link:https://www.linkedin.com/in/maximemalgorn/[Maxime Malgorn]
+* link:https://www.linkedin.com/in/vianney-de-bellabre/[Vianney De Bellabre]
+* link:https://www.linkedin.com/in/jcardon79/[Jérôme Cardon]
+
+== 🧐 Core Team Emeriti
+
+Here we honor some no-longer-active core team members who have made valuable contributions in the past.
+
+* Gaël Pellevoizin
+* link:https://github.com/NicolasDaviet[Nicolas Daviet]
+* link:https://github.com/fkotd[Mathilde Grapin]
+
+== 🙏 Sponsors
+
+They have contributed to the success of ecoCode:
+
+* link:https://www.davidson.fr/[Davidson Consulting]
+* link:https://www.orange-business.com/[Orange Business]
+* link:https://www.snapp.fr/[Snapp']
+* link:https://www.univ-pau.fr/[Université de Pau et des Pays de l'Adour (UPPA)]
+* link:https://www.solocal.com/[Solocal] / link:https://www.pagesjaunes.fr/[PagesJaunes.fr]
+* link:https://www.capgemini.fr/[Capgemini]
+* link:https://www.accenture.com/[Accenture]
+
+They supported the project:
+
+* link:https://www.nouvelle-aquitaine.fr/[Région Nouvelle-Aquitaine]

@@ -1,0 +1,5 @@
+name: ecocode
+title: ecoCode
+version: 1.6.x
+nav:
+  - modules/ROOT/nav.adoc

@@ -1,0 +1,3 @@
+* Contributing
+** xref:contribution:index.adoc[🫵 We need you!]
+** xref:contribution:team.adoc[]

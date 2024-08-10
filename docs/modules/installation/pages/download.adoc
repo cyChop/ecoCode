@@ -1,0 +1,43 @@
+= 🛒 Installing ecoCode
+
+The main way to install ecoCode plugins is <<install.marketplace,through your SonarQube Marketplace>>.
+However, it is also possible to download them from GitHub releases.
+
+[[install.marketplace]]
+== Install from Marketplace
+
+. In your SonarQube interface, go under menu:Administration[Marketplace].
+. Search for "_ecoCode_".
+. Click btn:[Install] on the wanted lines.
+
+[[install.github-release]]
+== Manually install a GitHub release
+
+. <<install.github-release.locations,Find a download>> the desired GitHub release.
+. Place the obtained file in `<sonarqube-home>/extensions/plugins`.
+. Restart the server.
+
+[[install.github-release.locations]]
+=== GitHub releases locations
+
+Historically, all ecoCode plugins were hosted in a single repository.
+In December 2023, we split it into one repository per plugin.
+
+Thus, depending on the version you want, you may need to check one repository or the other.
+
+.Releases URL by plugins based on the plugin version
+[options="header",cols="1,3,3"]
+|===
+|Plugin     |Single repository                                                                          |Dedicated repository
+|Java       |From 0.x to 1.4.3: link:https://github.com/green-code-initiative/ecoCode/releases[ecocode] |Since 1.5.0: link:https://github.com/green-code-initiative/ecoCode-java/releases[ecoCode-java]
+|PHP        |From 0.x to 1.3.1: link:https://github.com/green-code-initiative/ecoCode/releases[ecocode] |Since 1.4.0: link:https://github.com/green-code-initiative/ecoCode-php/releases[ecoCode-php]
+|Python     |From 0.x to 1.3.1: link:https://github.com/green-code-initiative/ecoCode/releases[ecocode] |Since 1.4.0: link:https://github.com/green-code-initiative/ecoCode-python/releases[ecoCode-python]
+|Javascript |From 0.x to 1.3.0: link:https://github.com/green-code-initiative/ecoCode/releases[ecocode] |Since 1.4.0: link:https://github.com/green-code-initiative/ecoCode-javascript/releases[ecoCode-javascript]
+|C#         |N/A                                                                                        |Since 0.x: link:https://github.com/green-code-initiative/ecoCode-csharp/releases[ecocode]
+|Android    |N/A                                                                                        |link:https://github.com/green-code-initiative/ecoCode-android/releases[ecoCode-android]
+|iOS        |N/A                                                                                        | link:https://github.com/green-code-initiative/ecoCode-ios/releases[ecoCode-ios]
+|===
+
+== Reference
+
+* https://docs.sonarsource.com/sonarqube/latest/instance-administration/marketplace/[SonarQube | Instance Administration | Marketplace]

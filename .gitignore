@@ -3,6 +3,7 @@
 !.gitignore
 !.gitattributes
 !.github/
+!.editorconfig
 
 # Ignore generated files
 target

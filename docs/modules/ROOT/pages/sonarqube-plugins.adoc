@@ -1,0 +1,41 @@
+= SonarQube plugins
+
+ecoCode is distributed as a set of plugins for SonarQube.
+
+image::ROOT:screenshot.png[A screenshot of a violation detected by an ecoCode plugin in SonarQube]
+
+== Plugins for eco-design
+
+image::ROOT:5ekko.png["Ekko, ecoCode's mascot, whose face depends on the code's 'greenness'"]
+
+ecoCode plugins are of two kinds:
+
+* Web and back-office plugins (PHP, Python, Java, JavaScript) were built using code smells described in the 2nd edition of the repository, published in September 2015.
+All the rules are available link:https://docs.google.com/spreadsheets/d/1nujR4EnajnR0NSXjvBW3GytOopDyTfvl3eTk2XGLh5Y/edit#gid=1386834576[here (in French)].
+
+* Mobile plugins used link:https://olegoaer.perso.univ-pau.fr/android-energy-smells/[a set of code smells] theorized by Olivier Le Goaër for Android, and later adapted for iOS.
+
+== List of all ecoCode plugins
+
+=== Web/back-office plugins
+
+* link:https://github.com/green-code-initiative/ecoCode-java[Java plugin]
+* link:https://github.com/green-code-initiative/ecoCode-javascript[JavaScript plugin]
+* link:https://github.com/green-code-initiative/ecoCode-php[PHP plugin]
+* link:https://github.com/green-code-initiative/ecoCode-python[Python plugin]
+* link:https://github.com/green-code-initiative/ecoCode-csharp[C# plugin]
+
+=== Mobile plugins
+
+* link:https://github.com/green-code-initiative/ecoCode-android[Android plugin]
+* link:https://github.com/green-code-initiative/ecoCode-ios[iOS plugin]
+
+== How a SonarQube plugin works
+
+Code is parsed to be transformed as an abstract syntax tree (AST for short).
+The AST will allow you to access one or more nodes of your code.
+For example, you’ll be able to access all of your `for` loop, to explore content, etc.
+
+To better understand the AST structure, you can use the link:https://astexplorer.net/[AST Explorer].
+
+Learn more at https://docs.sonarqube.org/latest/analysis/overview/

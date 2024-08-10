@@ -1,0 +1,14 @@
+= 🤝 Contribution
+
+You are a technical expert, a designer, a project manager, a CSR expert, an ecodesign expert...
+
+You want to offer the help of your company, help us to organize, communicate on the project?
+
+You have ideas to submit to us?
+
+We are listening to you to make the project progress collectively, and maybe with you!
+
+**WE NEED YOU! 🫵**
+
+// FIXME replace with a page in documentation
+Here the link:https://github.com/green-code-initiative/ecoCode-common/blob/main/doc/starter-pack.md[Starter pack].

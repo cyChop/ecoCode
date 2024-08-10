@@ -1,0 +1,25 @@
+= 📜 ecoCode rules
+
+== Rules references
+
+Web-oriented rules were based on:
+
+* The book _Ecoconception Web / Les 115 bonnes pratiques_ (https://github.com/cnumr/best-practices[open source repo with the best practices])
+* https://gr491.isit-europe.org/en/[GR491, Handbook of a sustainable design of digital services]
+* https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/[Référentiel général d'écoconception de services numériques (RGESN)]
+
+Additional rules were shared by https://greenspector.com/[Greenspector].
+
+We tried to apply these rules to each supported language, so we maintain a matrix to follow the current state of development.
+xref:rules-techno-support-matrix.adoc[Here are the selected rules] currently available on ecoCode.
+
+== Conditions for a rule to be applicable
+
+The rules included in a SonarQube plugin are applied through a static analysis of the code.
+This limits what rules can be included in the plugins.
+
+To be applicable, a rule must follow these conditions:
+
+* It must be statically detectable.
+* It must be easily scriptable and return a boolean response (true/false).
+* It must be validated (by a collective of experts AND/OR by a research thesis or appointed researcher AND/OR by a measurement tool AND/OR by a published article).

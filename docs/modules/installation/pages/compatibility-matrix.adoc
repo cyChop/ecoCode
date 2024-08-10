@@ -1,0 +1,14 @@
+= 🧩 Compatibility matrix
+
+.Compatibility matrix for ecoCode SonarQube plugins
+[options=header,cols="2,3,2"]
+|===
+| Plugins version | SonarQube version | Java version
+| 1.4.x           | 9.4.x LTS to 10.1 | 11 / 17
+| 1.3.x           | 9.4.x LTS to 10.0 | 11 / 17
+| 1.2.x           | 9.4.x LTS to 10.0 | 11 / 17
+| 1.1.x           | 9.4.x LTS to 9.9  | 11 / 17
+| 1.0.x           | 9.4.x LTS to 9.9  | 11 / 17
+| 0.2.x           | 9.4.x LTS to 9.9  | 11 / 17
+| 0.1.x           | 8.9.x LTS to 9.3  | 11 / 17
+|===
